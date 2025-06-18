@@ -7,14 +7,14 @@ This repository contains a simple Python implementation of the **Ornstein-Uhlenb
 The Ornstein-Uhlenbeck process is described by the stochastic differential equation:
 
 \[
-dx_t = \theta (\mu - x_t) dt + \sigma dW_t
+dx(t) = theta * (mu - x(t)) * dt + sigma * dW(t)
 \]
 
 where:
 - \( \theta \) is the speed of reversion,
 - \( \mu \) is the long-term mean,
 - \( \sigma \) is the volatility,
-- \( dW_t \) is the increment of a Wiener process (Brownian motion).
+- \( dW(t) \) is the increment of a Wiener process (Brownian motion).
 
 This script simulates the OU process using the Euler–Maruyama method and plots the resulting time series.
 
